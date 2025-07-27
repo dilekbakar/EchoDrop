@@ -23,5 +23,5 @@
 1. Bu repoyu klonlayın:
 
 ```bash
-git clone https://github.com/kullanici-adin/echo-drop.git
+git clone https://github.com/dilekbakar/echo-drop.git
 cd echo-drop
