@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Echo Drop Final MVP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="ui">
+  <div id="startScreen">
+    <h1>Echo Drop</h1>
+    <p>Ses çıkar, topu zıplat, engelden kaç!</p>
+    <button class="button" onclick="startGame()">Oyuna Başla</button>
+  </div>
+  <div id="gameOverScreen" style="display:none;">
+    <h1>Game Over</h1>
+    <p id="finalScore"></p>
+    <p id="highScoreText"></p>
+    <button class="button" onclick="restartGame()">Tekrar Oyna</button>
+  </div>
+</div>
+<div id="scoreDisplay">Skor: 0</div>
+<div id="settingsPanel">
+  <button class="button small-button" onclick="toggleTheme()">🌗 Tema</button>
+  <button class="button small-button" onclick="changeBallColor()">🎨 Top Rengi</button>
+</div>
+<canvas id="gameCanvas" width="400" height="600"></canvas>
+<script src="script.js"></script>
+</body>
+</html>
